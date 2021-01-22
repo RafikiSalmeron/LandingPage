@@ -1,0 +1,64 @@
+{
+  "testimonios": [{
+      "nombre": "Maripili Sánchez",
+      "resena": "¡Qué bonito el mando que me llegó!",
+      "fecha": "16/01/2021"
+    },
+    {
+      "nombre": "Rafael Pastrana",
+      "resena": "Estoy encantadísimo con el servicio",
+      "fecha": "10/11/2020"
+    },
+    {
+      "nombre": "Huang Chiu Ta",
+      "resena": "¡Glacias pol tanto y peldón pol tan poco!",
+      "fecha": "05/12/2020"
+    },
+    {
+      "nombre": "Tantan Heredia",
+      "resena": "Al principio no estaba muy convencido, pero con la prueba gratuita de 7 días, me obligué a mi mismo a comprar la suscripción",
+      "fecha": "14/01/2021"
+    },
+    {
+      "nombre": "Pepe Sánchez",
+      "resena": "Mañana me llega mi detalle, ¡estoy ansioso!",
+      "fecha": "15/01/2021"
+    },
+    {
+      "nombre": "Juan Gómez",
+      "resena": "No se qué es esto. ¿Dónde estoy?",
+      "fecha": "10/01/2021"
+    },
+    {
+      "nombre": "Maki Pérez",
+      "resena": "La verdad es que ha llegado todo súper rápido, y no puedo estar más conteno con todo el noticiario.",
+      "fecha": "30/12/2020"
+    },
+    {
+      "nombre": "Juan Rodríguez",
+      "resena": "El detalle se lo regalé a mi novia. Está contentísima, y yo obviamente también",
+      "fecha": "11/01/2021"
+    },
+    {
+      "nombre": "Tigger Adams",
+      "resena": "This website has everything I was looking for. I was so glad to finally find a free website that always keeps me informed of the latest news!",
+      "fecha": "23/12/2020"
+    }
+  ],
+  "servicios": [{
+      "img": "./img/mushroom.png",
+      "alt": "Imagen de seta",
+      "descripcion": "Mantente actualizado sobre todo el mundillo de los videojuegos"
+    },
+    {
+      "img": "./img/suscripcion.png",
+      "alt": "Imagen de gamepad",
+      "descripcion": "Puedes cancelar tu suscripción en cualquier momento"
+    },
+    {
+      "img": "./img/trofeo.png",
+      "alt": "Imagen de trofeo",
+      "descripcion": "Recibe un detalle de coleccionista en la puerta de tu casa"
+    }
+  ]
+}

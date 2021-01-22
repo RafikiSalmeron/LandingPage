@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+nav p {
+  margin: 0;
+  text-shadow: 0px 0px 8px white;
+  font-size: 1.2rem;
+}
+
+nav p:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#logo:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.topHero {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.botHero {
+  text-align: center;
+  opacity: 0.5;
+  padding: 1rem;
+}
+
+.btn-hero {
+  margin-top: 2rem;
+  background-color: #466645;
+}
+
+.btn-hero:hover {
+  transform: scale(1.2);
+}
+
+.form-container {
+  display: inline-block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+form {
+  background-color: rgb(201, 213, 219, 0.3);
+  border-radius: 1rem;
+  font-size: 1em;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+form p {
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.btn-form {
+  width: 12rem;
+}
+
+input {
+  border: 0;
+  outline: none;
+  width: 20rem;
+}
+
+.field {
+  border: solid 2px #ccc;
+  padding: 0.8rem;
+}
+
+.field:focus {
+  border-color: #18A383;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.btn-scrollTop {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(203, 202, 222, 0.52);
+}
+
+.btn-scrollTop:hover {
+  transform: scale(1.2);
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.servicio {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  background-color: rgb(201, 213, 219, 0.3);
+  height: 35vh;
+  border-radius: 2rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.img-servicio {
+  padding: 1rem;
+}
+
+.texto-servicio {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.servicio:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card {
+  background-color: rgb(201, 213, 219, 0.3);
+  color:white;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.testimonios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.testimonio {
+  display: none;
+  grid-template-rows: 1fr 3fr 1fr;
+  background-color: rgb(201, 213, 219, 0.3);
+  color:white;
+  margin: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+}
+hr{
+ border-top: 1px solid white;
+ margin-right: 1em;
+ margin-left: 1em;
+ margin-bottom: 3em;
+}
+.testimonio-title{
+  align-self: center;
+  padding-top: 1rem;
+}
+.testimonio-texto{
+  align-self: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.testimonio-fecha{
+  align-self: center;
+}
+.divButtonBot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 2em;
+}
+
+#btnTabla{
+  background-color: rgba(160, 192, 230, 0.52);
+  border-color: #ffffff;
+}
+
+.resenatabla {
+  text-align: center;
+  color: white;
+}
+
+.resenatabla , .resenatabla tr td, .resenatabla tr{
+  border: solid 1px white;
+  padding: 1rem;
+}
+.resenatabla{
+  background-color: rgb(201, 213, 219, 0.3);
+}
+.resenatabla td{
+  background-color: rgb(201, 213, 219, 0.3);
+}
+
+footer p{
+  color: rgba(255, 255, 255, 0.35);
+  text-align: center;
+}
+
+@media screen and (min-width: 720px){
+  .testimonios {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .servicio {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 992px){
+  .testimonios {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .servicio {
+    width: 25%;
+  }
+
+  .botHero{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
