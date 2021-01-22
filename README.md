@@ -24,7 +24,7 @@ Debajo de estas, tendremos un botón que nos cambiará la forma de ver las rese�
 
 <h4>Extra</h4>
 Abajo a la izquierda, tendremos en todo momento un botón flotante redondeado que si clicamos, nos llevará a la parte superior de la página.
-Toda la página web tiene una imagen de fondo que no molesta junto al contraste de la letra en colores blancos. No he colocado ningún vídeo porque pienso que visualmente quedaría peor. 
+Toda la página web tiene una imagen de fondo que no molesta junto al contraste de la letra en colores blancos. No he colocado ningún vídeo porque pienso que visualmente quedaría peor.
 
 <h3>Localización</h3>
 Si abrimos la consola nos aparecerá la localidad desde donde hemos entrado a la página si has permitido el uso de la ubicación. Esto se ha realizado mediante una consulta AJAX  a una API.
@@ -40,3 +40,7 @@ Si abrimos la consola nos aparecerá la localidad desde donde hemos entrado a la
   <li>CSS</li>
   <li>Bootstrap</li>
 </ul>
+
+
+<h3> Landing Page </h3>
+(https://rafikisalmeron.github.io/LandingPage/)
