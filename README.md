@@ -48,3 +48,6 @@ Si abrimos la consola nos aparecerá la localidad desde donde hemos entrado a la
 
 <h3> Proyecto GitHub </h3>
 (https://github.com/RafikiSalmeron/LandingPage)
+
+
+<h2> RAFAEL SALMERÓN MARTOS </h2>
